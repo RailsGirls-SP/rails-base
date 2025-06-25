@@ -1,24 +1,16 @@
-# README
+# Base para projetos Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup
+| Dependência    | Versão     |
+| -------------- | ----------- |
+| Ruby           | **3.4.4**   |
+| Sqlite3        | **3.43.2**  |
 
-Things you may want to cover:
+## Configuração
 
-* Ruby version
+**Variáveis de ambiente**
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Use .env.example como exemplo para criar seu arquivo de configurações (`.env`)
+```bash
+cp .env.example .env
+```
